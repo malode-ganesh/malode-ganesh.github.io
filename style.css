@@ -1,0 +1,305 @@
+/* <!-- =======================================================
+* Template Name: Task
+* Template URL: https://github.com/malode-ganesh
+* Author: Ganesh Malode.
+* Link: https://ganesh-malode.netlify.app/
+======================================================== --> */
+body{
+    background-color: #D7EAF9;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 15px 0 0 11em;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */    
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    /* color: white; */
+    color:#000000;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+.float-right{
+    float:right; 
+}
+.btn{
+    border:none;
+    background-color:#8B00F7;
+    color:#FFFF;
+    border-radius:15px;
+    margin-right: 50px;
+}
+.btn a{
+    color:#FFFF;
+}
+
+
+/* ##Container Start */
+.col{
+    float:left;
+    padding:10px;
+}
+.left{
+    width:50%;
+    /* background-color: #ccc; */
+}
+.right{
+    width:50%;
+    /* background-color: #4d82ac; */
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col{
+      width: 100%;
+    }
+  }
+
+.left h2{
+    padding: 30px 0 0 80px;
+    font-size:4vw;
+    font-weight: 550;
+    color:#03090e;
+}  
+.col-p1{
+    margin-top:-20px;
+    padding:0 0 0 80px;
+    font-size:1.1em;
+    color:#777373;
+}
+.col-p2{
+    padding:5px 0 0 80px;
+    color:#777373;
+}
+.col-p2 button{
+    border:none;
+    padding:8px 13px 8px 13px;
+    background:#8B00F7;
+    color:#FFFFFF;
+    border-radius:40px;
+    cursor: pointer;
+}
+.col-p2 a{
+    color:blue;
+    text-decoration:none;    
+}
+
+.shoe{
+    width: 50%;
+    margin-top:80px;
+    border-radius: 20px 0 0 20px;
+}
+.col-2{
+    display:flex;
+}
+.add-to-cart{
+    margin:80px 0 0 0;
+    padding:10px;
+    background-color: #FFFF;
+    border-radius:0 20px 20px 0;
+}
+.add-to-cart a{
+    text-decoration:none;
+    color: #777373;
+    font-size: 10px;
+}
+.cart-p1{
+    color:#000000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.timer span{
+    background-color:#dedfd8ec;
+    padding:5px;
+    margin:0 0 0 15px;
+}
+.addItem{
+    font-size:1.3em;
+    padding:10px;
+    margin:0 0 0 25px;
+}
+.addItem span{
+    font-size:1.4em;
+    font-weight: bold;
+}
+.price{
+    font-size:1.6em;
+    color:#8B00F7;
+    font-weight:bold;
+}
+
+.sale{    
+    text-transform:uppercase;
+    letter-spacing:5px;
+    background-color:#13b113;
+    padding:10px;
+    border-radius:20px;
+    width:80px;
+    position: absolute;
+    margin:-350px 0 0 975px;   
+    color: #fff;
+}
+.addCart-btn{
+    border:none;
+    padding:10px;
+    background-color:#8B00F7;
+    color:#fff;
+    width:90%;
+    cursor: pointer;
+}
+
+/* #Payment_Gateway_Card */
+.payment-card{
+    padding: 10px;
+    width:300px;
+    background:#ffffff;
+    text-align: center;
+    border-radius:15px;
+    position: absolute;
+    margin:-95px 0 0 800px;
+}
+.gateway1{
+    font-size:1.5em;
+    font-weight: bold;
+    color:#8B00F7;
+}
+.gateway2{
+    font-size:1.5em;
+    font-weight: bold;
+    color:#477ee6;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #008000;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #008000;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.candid{
+    position: absolute;
+    border-radius:20px;
+    margin:-385px 0 0 620px;
+    width: 10%;
+}
+
+.sectionTitle{
+    font-size:1.2em;
+    text-align: center;
+    color:#717575b2;
+}
+.sectionTitle span{
+    font-size:1.2em;
+    text-align: center;
+    color:#1c2020b2;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 20px 0 0 40px;
+}
+.container-fluid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+} 
+
+.column img{
+    width:80%;
+    border-radius:20px;
+}
+.column p{
+    font-size: 1em;
+    color:#777373 ;
+}
+.column a{
+    text-decoration:none;
+    color: #383886f1;
+    font-weight: bold;
+}
+.card-2{
+    margin-top:50px;
+}
+.card-3{
+    margin-top:100px;
+}
+.hide-content{
+    display:none;
+    text-align:center;    
+}
+@media screen and (max-width: 600px) {
+    .visibility{
+      display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hide-content {
+      display: inline;
+    }
+}
